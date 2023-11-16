@@ -42,7 +42,6 @@ The documentation is divided into several sections, each focusing on a different
 - [Selection Tools](Selection%20Tools)
 - [Paint Tools](Paint%20Tools)
 - [Transform Tools](Transform%20Tools)
-- [Color Tools](Color%20Tools)
 
 Each section provides a brief overview of the tools in its category, along with step-by-step instructions on how to use them.
 
