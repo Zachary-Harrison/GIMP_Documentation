@@ -8,7 +8,7 @@ Welcome to our documentation for the free, open-source tool known as GIMP (GNU I
 
 This project aims to provide comprehensive, user-friendly documentation for GIMP. Our goal is to help users of all levels understand and effectively use GIMP's wide range of tools and features. 
 
-> ${\color{red}\text{Important Note: This documentation is not exhaustive.}}$  
+> $\color{red}\text{Warning: This documentation is not exhaustive.}$  
 > *There might be more ways to use these tools that we describe, and there are more tools than we provide documentation for. Feel free to experiment with GIMP to see what it can do for you beyond what we've described.*
 
 ## Quickstart
@@ -30,7 +30,9 @@ This guide provides quickstart instructions for getting started with GIMP (GNU I
 ### Linux
 
 1. GIMP can be installed from the terminal in most Linux distributions. For example, on Ubuntu, you can install GIMP with the following command: 
-   > `sudo apt-get install gimp`
+    ```bash
+    sudo apt-get install gimp
+    ```
 2. Once the installation is complete, you can launch GIMP from your applications menu or from the terminal by typing `gimp`.
 
 Check out the [official GIMP documentation](https://docs.gimp.org/2.10/en/) for more detailed instructions and tutorials.

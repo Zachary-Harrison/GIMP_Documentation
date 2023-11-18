@@ -4,16 +4,16 @@
 
 ## Overview
 
-The ![](../images/FreeSelectTool.png) *free select tool* is used to create selections of irregular shape. in gimp, a selection is a bounded region that limits where certain tools can be applied. with the ![](../images/FreeSelectTool.png) *Free Select Tool*, selections can be formed by drawing an outline, or by placing points to form connected line segments, or by a combination of both. 
+The ![FreeSelectTool.png](../images/FreeSelectTool.png) *free select tool* is used to create selections of irregular shape. in gimp, a selection is a bounded region that limits where certain tools can be applied. with the ![](../images/FreeSelectTool.png) *Free Select Tool*, selections can be formed by drawing an outline, or by placing points to form connected line segments, or by a combination of both. 
 
 
-## Activating the Free Select Tool
+## Click the Free Select Tool
 
-The ![](../images/FreeSelectTool.png) *Free Select Tool* can be activated by pressing `F` on your keyboard, or by finding the toolbox and left-clicking the lasso icon.
+The ![FreeSelectTool.png](../images/FreeSelectTool.png) *Free Select Tool* can be activated by pressing `F` on your keyboard, or by finding the toolbox and left-clicking the lasso icon.
 
 ![toolbox with freeselect selected](../images/lassoicon.png)
 
-If the tool bar is not in your window, it can be displayed by navigating to `Windows>Toolbox`, or by using `Ctrl+B`. 
+If the tool bar is not in your window, it can be displayed by navigating to `Windows` > `Toolbox`, or by using `Ctrl+B`. 
 
 ## Basic Usage
 
@@ -59,34 +59,32 @@ In the tool options dialogue, you can select from four different selection modes
 
 `Add to the current selection` will include all previous area selected in the new selection. Note that the two regions don't necessarily have to be connected.
 
-| Before adding to selection | After adding to a selection |
+| Before addition | After addition |
 |:---:|:---:|
 | ![addtoselection1.png](../images/addtoselection1.png) | ![addtoselection2.png](../images/addtoselection2.png) |
 
 `Subtract from current selection` will keep all previous area selected, except for the area that lies inside the new selected region.
 
-| Before subtracting from a selection | After subtracting from a selection |
+| Before subtraction | After subtraction |
 |:---:|:---:|
 | ![subtractfromselection1.png](../images/subtractfromselection1.png) | ![subtractfromselection2.png](../images/subtractfromselection2.png) |
 
 `Intersect with current selection` will keep any previous area selected that lies within the new selected region.
 
-| Before intersecting with a selection | After intersecting with a selection |
+| Before intersection | After intersection |
 |:---:|:---:|
 | ![intersectselection1.png](../images/intersectselection1.png) |  ![ntersectselection2.png](../images/intersectselection2.png) |
 
 
-
 ## Anti-Aliasing
 
-In the tool options dialogue, you'll notice an checkbox labelled `Anti-aliasing`. If the box is left unchecked, the edges of the selection will contain entire pixels, producing a blocky texture around the edges. If the box is checked, the edges are smoothed by blending the levels of the effects applied within the selection. Be sure to check or uncheck the box **before** you begin the selection.
+In the tool options dialogue, you'll notice an checkbox labeled `Anti-aliasing`. If the box is left unchecked, the edges of the selection will contain entire pixels, producing a blocky texture around the edges. If the box is checked, the edges are smoothed by blending the levels of the effects applied within the selection. Be sure to check or uncheck the box **before** you begin the selection.
 
 Below, the left image shows a shape filled in using a selection without anti-aliasing, and the right image shows the same shape filled in using a selection with anti-aliasing.
 
 | Without anti-aliasing | With anti-aliasing |
 |:---:|:---:|
 | ![anti_aliasing_off.png](../images/anti_aliasing_off.png) | ![anti_aliasing_on.png](../images/anti_aliasing_on.png) |
-
 
 While having anti-aliasing turned on will be more useful in most situations, turning it off can also be useful if you're trying to make changes with pixel-level precision.
 
@@ -99,14 +97,6 @@ Feathering the edges of a selection also rounds any sharp points made on the sel
 
 Below, the left image shows a shape filled in using a selection with `Feather edges` turned on, and a radius of 5 pixels. The right image shows the same shape filled in using a selection with a radius of 15 pixels.
 
-
-
 | With 5px feathering | with 15px feathering |
 |:---:|:---:|
 | ![feather5px.png](../images/feather5px.png) | ![feather15px.png](../images/feather15px.png) |
-
-
-
-
-
-
