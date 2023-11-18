@@ -8,7 +8,7 @@ Welcome to our documentation for the free, open-source tool known as GIMP (GNU I
 
 This project aims to provide comprehensive, user-friendly documentation for GIMP. Our goal is to help users of all levels understand and effectively use GIMP's wide range of tools and features. 
 
-> $\color{red}\text{Warning: This documentation is not exhaustive.}$  
+> $\color{red}\text{Disclaimer: This documentation is not exhaustive.}$  
 > *There might be more ways to use these tools that we describe, and there are more tools than we provide documentation for. Feel free to experiment with GIMP to see what it can do for you beyond what we've described.*
 
 ## Quickstart
